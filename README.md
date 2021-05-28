@@ -1,2 +1,1 @@
-# mentora
-Just a project
+hello world
