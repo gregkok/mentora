@@ -17,4 +17,5 @@ function Login() {
     )
 }
 
+console.log('linus sucks');
 export default Login;
