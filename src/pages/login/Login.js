@@ -5,12 +5,16 @@ function Login() {
         <form className={classes.loginForm}>
             <h1>Login</h1>
             <div>
-                <input className={classes.formInputMaterial} type="text" name="username" id="username" placeholder=" " autocomplete="off"/>
                 <label>Username</label>
             </div>
             <div>
-                <input className={classes.formInputMaterial} type="password" name="password" id="password" placeholder=" " autocomplete="off"/>
+                <input className={classes.formInputMaterial} type="text" name="username" id="username" placeholder="Enter your username" autocomplete="off"/>
+            </div>
+            <div>
                 <label>Password</label>
+            </div>
+            <div>
+                <input className={classes.formInputMaterial} type="password" name="password" id="password" placeholder="Enter your pwd" autocomplete="off"/>
             </div>
             <button className={classes.btn}>Login</button>
         </form>
