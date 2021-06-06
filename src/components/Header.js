@@ -1,4 +1,4 @@
-import classes from './Header.module.scss'
+import './Header.module.scss'
 const { Link } = require("react-router-dom");
 
 function Header() {
@@ -13,11 +13,7 @@ function Header() {
               Login
             </a>
           </li>
-          <li>
-          <a href=''>
-              Login
-            </a>
-          </li>
+
         </ul>
       </nav>
     </header>
